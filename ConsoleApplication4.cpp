@@ -10,7 +10,7 @@ public:
     Vector2D(float x = 0, float y = 0) : x(x), y(y) {}
 
     //метод для вывода вектора
-    void print() const {
+    void print() const { 
         std::cout << "(" << x << ", " << y << ")" << std::endl;
     }
 };
